@@ -1,4 +1,4 @@
-# DeepdreamGui
+# NeuralartGui
 
 WPF-based user interface for Google's [Deepdream](https://github.com/google/deepdream/) and Kaishengtai's [Implementation](https://github.com/kaishengtai/neuralart) of [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576). 
 Uses merged and modified Docker Container of [Herval](https://github.com/herval/deepdream-docker) and [mbartoli](https://github.com/mbartoli/docker-neuralart).
