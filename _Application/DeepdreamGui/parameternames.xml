@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <input_parameter>
+  </input_parameter>
+  <model_parameter>
+    <model key="conv1/7x7_s2" name="Comic 1" description="conv1/7x7_s2" sample="conv1-7x7_s2.jpg"/>
+    <model key="pool1/3x3_s2" name="Comic 2" description="pool1/3x3_s2" sample="pool1-3x3_s2.jpg"/>
+    <model key="conv2/norm2" name="Edges 1" description="conv2/norm2" sample="conv2-norm2.jpg"/>
+    <model key="inception_3a/5x5_reduce" name="Edges 2" description="inception_3a/5x5_reduce" sample="inception_3a-5x5_reduce.jpg"/>
+    <model key="inception_3b/5x5_reduce" name="Edges 3" description="inception_3b/5x5_reduce" sample="inception_3b-5x5_reduce.jpg"/>
+    <model key="inception_3b/3x3_reduce" name="Edges 4" description="inception_3b/3x3_reduce" sample="inception_3a-3x3_reduce.jpg"/>
+    <model key="inception_3b/5x5" name="KantenbetEdgesonung 5" description="inception_3b/5x5" sample="inception_3b-5x5.jpg"/>
+    <model key="inception_3a/3x3_reduce" name="Edges 6" description="inception_3a/3x3_reduce" sample="inception_3a-3x3_reduce.jpg"/>
+    <model key="inception_3a/5x5" name="Art 1" description="inception_3a/5x5" sample="inception_3a-5x5.jpg"/>
+    <model key="inception_5b/output" name="Art 2" description="inception_5b/output" sample="inception_5b-output.jpg"/>
+    <model key="pool3/3x3_s2" name="Art 3" description="pool3/3x3_s2" sample="pool3-3x3_s2.jpg"/>
+    <model key="inception_4a/1x1" name="Art 4" description="inception_4a/1x1" sample="inception_4a-1x1.jpg"/>
+    <model key="inception_3b/3x3" name="Art 5" description="inception_3b/3x3" sample="inception_3b-3x3.jpg"/>
+    <model key="pool2/3x3_s2" name="Art 6" description="pool2/3x3_s2" sample="pool2-3x3_s2.jpg"/>
+    <model key="inception_3a/3x3" name="Art 7" description="inception_3a/3x3" sample="inception_3a-3x3.jpg"/>
+    <model key="inception_3a/output" name="Art 8" description="inception_3a/output" sample="inception_3a-output.jpg"/>
+    <model key="inception_4a/pool_proj" name="Art 9" description="inception_4a/pool_proj" sample="inception_4a-pool_proj.jpg"/>
+    <model key="inception_4a/output" name="Eyes 1" description="inception_4a/output" sample="inception_4a-output.jpg"/>
+    <model key="inception_4b/1x1" name="Eyes 2" description="inception_4b/1x1" sample="inception_4b-1x1.jpg"/>
+    <model key="inception_4c/output" name="Eyes 3" description="inception_4c/output" sample="inception_4c-output.jpg"/>
+    <model key="inception_4b/3x3_reduce" name="Eyes 4" description="inception_4b/3x3_reduce" sample="inception_4b-3x3_reduce.jpg"/>
+    <model key="inception_4b/5x5_reduce" name="Eyes 5" description="inception_4b/5x5_reduce" sample="inception_4b-5x5_reduce.jpg"/>
+    <model key="inception_4d/3x3_reduce" name="Animals 1" description="inception_4d/3x3_reduce" sample="inception_4d-3x3_reduce.jpg"/>
+    <model key="inception_4d/5x5" name="Animals 2" description="inception_4d/5x5" sample="inception_4d-5x5.jpg"/>
+    <model key="inception_5b/5x5" name="Animals 3" description="inception_5b/5x5" sample="inception_5b-5x5.jpg"/>
+    <model key="inception_4d/output" name="Animals 4" description="inception_4d/output" sample="inception_4d-output.jpg"/>
+    <model key="inception_5a/3x3_reduce" name="Animals 5" description="inception_5a/3x3_reduce" sample="inception_5a-3x3_reduce.jpg"/>
+    <model key="inception_5b/pool_proj" name="Animals 6" description="inception_5b/pool_proj" sample="inception_5b-pool_proj.jpg"/>
+  </model_parameter>
+</root>

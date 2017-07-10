@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="action_delete_image" xml:space="preserve">
+    <value>Bild löschen</value>
+  </data>
+  <data name="action_delete_selected_images" xml:space="preserve">
+    <value>Ausgewählte Bilder löschen</value>
+  </data>
+  <data name="action_details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="action_open_image" xml:space="preserve">
+    <value>Bild öffnen</value>
+  </data>
+  <data name="action_open_style_image" xml:space="preserve">
+    <value>Style Bild öffnen</value>
+  </data>
+  <data name="action_process_cancel" xml:space="preserve">
+    <value>Verarbeitung Abbrechen</value>
+  </data>
+  <data name="action_process_start" xml:space="preserve">
+    <value>Verarbeitung Starten</value>
+  </data>
+  <data name="action_save_image" xml:space="preserve">
+    <value>Bild speichern</value>
+  </data>
+  <data name="action_save_selected_images" xml:space="preserve">
+    <value>Ausgewählte Bilder speichern</value>
+  </data>
+  <data name="action_save_selected_report" xml:space="preserve">
+    <value>Für ausgewählte Bilder Report speichern</value>
+  </data>
+  <data name="action_selct_none" xml:space="preserve">
+    <value>Auswahl aufheben</value>
+  </data>
+  <data name="action_select_all" xml:space="preserve">
+    <value>Alle Bilder auswählen</value>
+  </data>
+  <data name="info_base_image" xml:space="preserve">
+    <value>Ausgangsbild</value>
+  </data>
+  <data name="info_checking_dependencies" xml:space="preserve">
+    <value>Abhängigkeiten werden gerprüft</value>
+  </data>
+  <data name="info_confirm_cancel" xml:space="preserve">
+    <value>Wirklich abbrechen?</value>
+  </data>
+  <data name="info_confirm_cancel_details" xml:space="preserve">
+    <value>Bei Abbruch geht der Fortschritt des aktuell in Bearbeitung befindlichen Bildes verloren. Bereits fertig gestellte Bilder bleiben erhalten.</value>
+  </data>
+  <data name="info_confirm_close" xml:space="preserve">
+    <value>Wirklich schließen?</value>
+  </data>
+  <data name="info_confirm_close_detail" xml:space="preserve">
+    <value>Ungespeicherte Änderungen gehen verloren.</value>
+  </data>
+  <data name="info_confirm_delete" xml:space="preserve">
+    <value>Wirklich löschen?</value>
+  </data>
+  <data name="info_confirm_delete_detail" xml:space="preserve">
+    <value>Alle Detail Fenster die dieses Bild anzeigen werden geschlossen. Dieser Vorgang kann nicht rückgängig gemacht werden!</value>
+  </data>
+  <data name="info_confirm_start" xml:space="preserve">
+    <value>Verarbeitung starten?</value>
+  </data>
+  <data name="info_confirm_start_details" xml:space="preserve">
+    <value>Dies kann, je nach Bild, Parametern und Rechenleistung, sehr lange dauern. Zur Verbesserung können in den Einstellungen von Docker die Anzahl der aktiven CPUs und die Menge des Reservierten Speichers erhöht werden.</value>
+  </data>
+  <data name="info_could_not_open_file" xml:space="preserve">
+    <value>Die Datei konnte nicht geöffnet werden</value>
+  </data>
+  <data name="info_details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="info_error" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="info_error_docker_container" xml:space="preserve">
+    <value>Docker ist nicht gestartet oder das muelmx/neuralart_exec Image ist nich korrekt installiert. Die Applikation wird beendet.</value>
+  </data>
+  <data name="info_fill_transparency" xml:space="preserve">
+    <value>Transparenzen werden gefüllt.</value>
+  </data>
+  <data name="info_fill_transparency_detail" xml:space="preserve">
+    <value>Das gewählte Bild könnte Transparente Regionen beinhalten. Diese werden vor der Verarbeitung mit schwarz gefüllt. Die Ursprungsdatei bleibt unverändert. Bild trotzdem Laden?</value>
+  </data>
+  <data name="info_preparing" xml:space="preserve">
+    <value>Vorbereitung...</value>
+  </data>
+  <data name="info_process_will_be_canceled" xml:space="preserve">
+    <value>Prozess wird beendet.</value>
+  </data>
+  <data name="info_select_image" xml:space="preserve">
+    <value>Bild auswählen</value>
+  </data>
+  <data name="info_select_style" xml:space="preserve">
+    <value>Style auswählen</value>
+  </data>
+  <data name="info_serial" xml:space="preserve">
+    <value>Seriennummer</value>
+  </data>
+  <data name="info_style_image" xml:space="preserve">
+    <value>Style Bild</value>
+  </data>
+  <data name="info_time_remainnig" xml:space="preserve">
+    <value> Verbleibende Zeit: </value>
+  </data>
+  <data name="info_wait" xml:space="preserve">
+    <value>Bitte warten...</value>
+  </data>
+  <data name="param_achieved_change" xml:space="preserve">
+    <value>Erziehlte Veränderung</value>
+  </data>
+  <data name="param_achieved_change_tooltip" xml:space="preserve">
+    <value>1 = Schwach, 10 = Stark</value>
+  </data>
+  <data name="param_description" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="param_helpsample" xml:space="preserve">
+    <value>Hilfsmuster</value>
+  </data>
+  <data name="param_helpsample_tooltip" xml:space="preserve">
+    <value>Ein Bild, welches über das Hauptbild gelegt wird und in seiner Transparenz einstellbar ist. Die Bilder werden bei der Bearbeitung zu einem Bild zusammengefügt.</value>
+  </data>
+  <data name="param_intensity" xml:space="preserve">
+    <value>Intensität</value>
+  </data>
+  <data name="param_intensity_tooltip" xml:space="preserve">
+    <value>Stärke des Effekts</value>
+  </data>
+  <data name="param_iterations" xml:space="preserve">
+    <value>Iterationen</value>
+  </data>
+  <data name="param_iterations_tooltip" xml:space="preserve">
+    <value>Anzahl der Durchläufe bzw. Ausgabebilder</value>
+  </data>
+  <data name="param_maxsidelength" xml:space="preserve">
+    <value>Max. Seitenlänge</value>
+  </data>
+  <data name="param_maxsidelength_tooltip" xml:space="preserve">
+    <value>Das Bild wird so verkleinert, dass die längere Seite dem angegebenen Wert entspricht</value>
+  </data>
+  <data name="param_model" xml:space="preserve">
+    <value>Effekt</value>
+  </data>
+  <data name="param_model_tooltip" xml:space="preserve">
+    <value>Effekt, der bei jedem Durchlauf auf das Ergebnisbild angewendet wird</value>
+  </data>
+  <data name="param_name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="param_octave" xml:space="preserve">
+    <value>Oktaven</value>
+  </data>
+  <data name="param_octave_tooltip" xml:space="preserve">
+    <value>Tiefe des Effekts</value>
+  </data>
+  <data name="param_rotate" xml:space="preserve">
+    <value>Rotation</value>
+  </data>
+  <data name="param_rotate_tooltip" xml:space="preserve">
+    <value>Lässt das Bild um den angegeben Winkel rotieren bei jeder Iteration. Positive Werte = Rotation gegen den Uhrzeigersinn; Negative Werte = Rotation gegen den Uhrzeigersinn.</value>
+  </data>
+  <data name="param_scale" xml:space="preserve">
+    <value>Skalierung</value>
+  </data>
+  <data name="param_scale_tooltip" xml:space="preserve">
+    <value>Skaliert das Bild auf den angegeben Wert bei jeder Iteration.</value>
+  </data>
+  <data name="param_shrink" xml:space="preserve">
+    <value>Verkleinern</value>
+  </data>
+  <data name="param_shrink_tooltip" xml:space="preserve">
+    <value>Bild wird auf maximale Kantenlänge von 300px verkleinert. Verbessert die Verarbeitungsgeschwindigkeit.</value>
+  </data>
+  <data name="param_thumbnail_size" xml:space="preserve">
+    <value>Thumbnail Größe</value>
+  </data>
+  <data name="report_additional_information" xml:space="preserve">
+    <value>Zusatzinformationen eingeben</value>
+  </data>
+  <data name="report_author" xml:space="preserve">
+    <value>Erstellername</value>
+  </data>
+  <data name="report_by" xml:space="preserve">
+    <value>von</value>
+  </data>
+  <data name="report_date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="report_parameter" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="report_report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="report_report_name" xml:space="preserve">
+    <value>Reportname</value>
+  </data>
+  <data name="report_results" xml:space="preserve">
+    <value>Ergebnisse</value>
+  </data>
+  <data name="report_series" xml:space="preserve">
+    <value>Serie</value>
+  </data>
+</root>
