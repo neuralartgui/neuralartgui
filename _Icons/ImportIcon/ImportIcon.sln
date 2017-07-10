@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportIcon", "ImportIcon\ImportIcon.csproj", "{0a569825-04e4-4afe-8a93-070405a85757}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A569825-04E4-4AFE-8A93-070405A85757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A569825-04E4-4AFE-8A93-070405A85757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A569825-04E4-4AFE-8A93-070405A85757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A569825-04E4-4AFE-8A93-070405A85757}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="DeepdreamGui.View.ButtonGroup"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DeepdreamGui.View"
+             xmlns:vm="clr-namespace:DeepdreamGui.ViewModel"
+             xmlns:controls="clr-namespace:DeepdreamGui.View.Controls"
+             xmlns:p="clr-namespace:DeepdreamGui.Properties"
+             mc:Ignorable="d" 
+             d:DesignHeight="40" d:DesignWidth="120"
+             d:DataContext="{d:DesignInstance IsDesignTimeCreatable=False, Type={x:Type vm:MainViewModel}}"  Height="40">
+    <Grid  Margin="0,40,0,0">
+        <!-- Background="{StaticResource UiForegroundBrush}" -->
+        <Grid.Style>
+            <Style TargetType="Grid">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding ButtonGroupVisible}" Value="True" >
+                        <DataTrigger.EnterActions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation x:Name="InAnimation" Storyboard.TargetProperty="Opacity" From="0" To="1"  Duration="00:00:00.150"/>
+                                    <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="Margin" BeginTime="00:00:00" >
+                                        <SplineThicknessKeyFrame KeyTime="00:00:00" Value="0,40,0,0" />
+                                        <SplineThicknessKeyFrame KeyTime="00:00:00.150" Value="0,0,0,0" />
+                                    </ThicknessAnimationUsingKeyFrames>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </DataTrigger.EnterActions>
+                        <DataTrigger.ExitActions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation x:Name="OutAnimation" Storyboard.TargetProperty="Opacity" From="1" To="0" Duration="00:00:00.150"/>
+                                    <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="Margin" BeginTime="00:00:00" >
+                                        <SplineThicknessKeyFrame KeyTime="00:00:00" Value="0,0,0,0" />
+                                        <SplineThicknessKeyFrame KeyTime="00:00:00.150" Value="0,40,0,0" />
+                                    </ThicknessAnimationUsingKeyFrames>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </DataTrigger.ExitActions>
+                    </DataTrigger>
+                </Style.Triggers>
+            </Style>
+        </Grid.Style>
+        <StackPanel Orientation="Horizontal">
+            <controls:GeometryButton ToolTip="{x:Static p:Resources.action_save_selected_report}" ButtonClick="{Binding SaveReportCommand}" Width="40" Height="40"
+                                                  GeometryPath="M13,9H18.5L13,3.5V9M6,2H14L20,8V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V4C4,2.89 4.89,2 6,2M7,20H9V14H7V20M11,20H13V12H11V20M15,20H17V16H15V20Z" />
+
+            <controls:GeometryButton ToolTip="{x:Static p:Resources.action_save_selected_images}" ButtonClick="{Binding SaveSelectedImagesCommand}" Width="40" Height="40" 
+                                                  GeometryPath="M15,9H5V5H15M12,19A3,3 0 0,1 9,16A3,3 0 0,1 12,13A3,3 0 0,1 15,16A3,3 0 0,1 12,19M17,3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V7L17,3Z"/>
+
+            <controls:GeometryButton ToolTip="{x:Static p:Resources.action_delete_selected_images}" ButtonClick="{Binding DeleteSelectedImagesCommand}" Width="40" Height="40"
+                                                  GeometryPath="M19,4H15.5L14.5,3H9.5L8.5,4H5V6H19M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19Z"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
